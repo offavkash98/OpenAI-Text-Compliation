@@ -7,13 +7,14 @@
    git clone <your-repo-url>
 
 2. Install dependencies:
-      pip install -r requirements.txt
+3. 
+           pip install -r requirements.txt
 
-3. You’ll need an API key from OpenAI to use GPT models. Sign up and create an API key
+4. You’ll need an API key from OpenAI to use GPT models. Sign up and create an API key
 
      place key here : api_key = "your_openai_api_key_here"
 
-4. Run the application:
+5. Run the application:
      uvicorn main:app --reload
 
      Open your web browser.
